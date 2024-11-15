@@ -1,0 +1,75 @@
+.navbar {
+    position: absolute;
+    height: 100%;
+    width: 392px;
+    top: 0;
+  
+    &-button {
+      font-size: 2rem;
+      background: none;
+      background-color: #f0456b44;
+      border-radius: 2px;
+      border: none;
+      position: absolute;
+      cursor: pointer;
+      z-index: 999999;
+      color: white;
+      height: 40px;
+      width: 25px;
+      top: 20px;
+      transform: scaleX(2);
+
+      &::before{
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 12px;
+        height: 3px;
+        top: 10px;
+        left: 8.5px;
+        background-color: white;
+        z-index: 9999999;
+      }
+
+      &::after{
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 6px;
+        height: 3px;
+        top: 32px;
+        left: 8.5px;
+        background-color: white;
+        z-index: 9999999;
+      }
+    };
+  
+    .navbar-menu {
+      position: absolute;
+      z-index: 99;
+      width: 117%;
+      left: -2rem;
+      height: 120%;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .navbar-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+  
+      &__item {
+        margin: 1rem 0;
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+        font-family: "Bebas Neue", sans-serif;
+        color: #EC315A;
+        font-size: 3rem;
+      }
+    }
+  }
