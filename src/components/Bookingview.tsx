@@ -165,7 +165,6 @@ function BookingView({
               <span className="lanes-prefix">lane</span>
             </div>
           </div>
-
           <div className="booking-form__shoes">
             <div className="booking-form__shoes-container"></div>
 
@@ -205,7 +204,6 @@ function BookingView({
               </button>
             </div>
           </div>
-
           <button className="booking-strike__button" onClick={handleBookingClick}>
             STRIIIIKE!
           </button>
