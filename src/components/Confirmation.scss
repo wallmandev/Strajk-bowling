@@ -1,0 +1,139 @@
+.confirmation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    &-inner{
+        background-color: #FFF4F1;
+        width: 393px;
+        height: 100%;
+        padding: 0 2rem 0 2rem;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &-container{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    &-link{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2rem;
+
+    }
+    
+    &-logo{
+        height: 100px;
+        width: 100px;
+        margin-top: 2rem;
+        
+        &__text{
+            font-family: "Bebas Neue", sans-serif;
+            color: #EC315A;
+            font-size: 4rem;
+            margin: 0;
+        }
+    }
+    
+    
+    &-header{
+        
+        border-top: 2px solid #5e2e91;
+        display: flex;
+        justify-content: center;
+        height: 20px;
+
+        &__content{
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 100;
+            position: relative;
+            height: 20px;
+            top: -34px;
+            background-color: #FFF4F1;
+            color: #5e2e91;
+            width: 150px;
+            text-align: center;
+        }
+    }
+
+    &-label{
+        border: 2px solid #5e2e91;
+        width: 344px;
+        height: 52px;
+        border-radius: 5px;
+        
+        &__total{
+            border: 2px solid #EC315A;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__text{
+            position: relative;
+            top: -10px;
+            left: 20px;
+            width: 50px;
+            background-color: #FFF4F1;
+            text-align: center;
+            margin: 0;
+            font-size: 16px;
+            font-family: "Bebas Neue", sans-serif;
+            color: #5e2e91;
+            letter-spacing: 1px;
+            
+            &--total{
+                position: static;
+                margin-left: 0.5rem;
+                color: #EC315A;
+                font-size: 20px;
+            }
+
+            &-booking{
+                width: 110px;
+            }
+        }
+
+
+        &__content{
+            margin: 0;
+            font-family: "Work Sans", sans-serif;
+            margin-left: 1rem;
+
+            &--total{
+                margin-right: 1rem;
+                color: #EC315A;
+                font-size: 20px;
+            }
+        }
+    }
+
+    &-button{
+        color: white;
+        background-color: #EC315A;
+        border-radius: 5px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2rem;
+        border: none;
+        padding: 20px;
+        width: 344px;
+        margin-bottom: 2rem;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
